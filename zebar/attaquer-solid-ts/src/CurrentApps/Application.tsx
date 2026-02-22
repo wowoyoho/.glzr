@@ -58,9 +58,17 @@ const Application: Component<ApplicationProps> = (props) => {
     msedgewebview2: (
       <img src="./assets/icons/icons8-edge-32.png" class="app-icon" />
     ),
+    msedge: <img src="./assets/icons/icons8-edge-32.png" class="app-icon" />,
+    chrome: <img src="./assets/icons/icons8-chrome-32.png" class="app-icon" />,
+    Chrome: <img src="./assets/icons/icons8-chrome-32.png" class="app-icon" />,
+    Opera: <img src="./assets/icons/icons8-opera-32.png" class="app-icon" />,
+    opera: <img src="./assets/icons/icons8-opera-32.png" class="app-icon" />,
+    Arc: <img src="./assets/icons/icons8-application-32.png" class="app-icon" />,
+    vivaldi: <img src="./assets/icons/icons8-application-32.png" class="app-icon" />,
     steamwebhelper: (
       <img src="./assets/icons/icons8-steam-32.png" class="app-icon" />
     ),
+    steam: <img src="./assets/icons/icons8-steam-32.png" class="app-icon" />,
     Messenger: (
       <img
         src="./assets/icons/icons8-facebook-messenger-32.png"
@@ -110,6 +118,20 @@ const Application: Component<ApplicationProps> = (props) => {
     Postman: <img src="./assets/icons/Postman-32.png" class="app-icon" />,
     rider64: <img src="./assets/icons/rider64-32.png" class="app-icon" />,
     firefox: <img src="./assets/icons/Firefox-32.png" class="app-icon" />,
+    Slack: <img src="./assets/icons/icons8-slack-32.png" class="app-icon" />,
+    slack: <img src="./assets/icons/icons8-slack-32.png" class="app-icon" />,
+    Notion: <img src="./assets/icons/icons8-notion-32.png" class="app-icon" />,
+    notion: <img src="./assets/icons/icons8-notion-32.png" class="app-icon" />,
+    Telegram: <img src="./assets/icons/icons8-telegram-32.png" class="app-icon" />,
+    telegram: <img src="./assets/icons/icons8-telegram-32.png" class="app-icon" />,
+    TelegramDesktop: (
+      <img src="./assets/icons/icons8-telegram-32.png" class="app-icon" />
+    ),
+    Zoom: <img src="./assets/icons/icons8-zoom-32.png" class="app-icon" />,
+    zoom: <img src="./assets/icons/icons8-zoom-32.png" class="app-icon" />,
+    GitHubDesktop: (
+      <img src="./assets/icons/icons8-github-32.png" class="app-icon" />
+    ),
   };
   return (
     <button

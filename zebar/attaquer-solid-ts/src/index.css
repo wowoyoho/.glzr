@@ -5,19 +5,19 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
 
 :root {
-  --color: #00cc6a;
-  --green: #75ea07;
-  --b-yellow: #ebec6c;
-  --yellow: #e0e109;
-  --b-orange: #fb8c00;
-  --orange: #ec6f08;
-  --b-red: #ff3e3e;
-  --red: #db1e1d;
-  --pink: #be70fa;
-  --purple: #8800dd;
-  --blue: #05e7e5;
-  --night-blue: #016ff6;
-  --windows-color: #3a86ff;
+  --color: #ffffff;
+  --green: #ffffff;
+  --b-yellow: #ffffff;
+  --yellow: #ffffff;
+  --b-orange: #ffffff;
+  --orange: #ffffff;
+  --b-red: #ffffff;
+  --red: #ffffff;
+  --pink: #ffffff;
+  --purple: #ffffff;
+  --blue: #ffffff;
+  --night-blue: #ffffff;
+  --windows-color: #ffffff;
 }
 
 @font-face {
@@ -139,7 +139,11 @@ body {
   color: rgb(255 255 255 / 90%);
   font-family: "CaskaydiaMonoNerdFont Locally", ui-monospace, monospace;
   font-size: 13px;
+  text-shadow:
+    0 1px 1px rgb(0 0 0 / 85%),
+    0 0 3px rgb(0 0 0 / 70%);
   overflow: hidden;
+  background: transparent;
 }
 html,
 body {
@@ -149,11 +153,14 @@ body {
 #root {
   height: 100%;
   align-items: center;
-  background: #1c1c1ccc;
+  background: transparent;
 }
 
 i {
-  color: rgb(115 130 175 / 95%);
+  color: #fff;
+  text-shadow:
+    0 1px 1px rgb(0 0 0 / 85%),
+    0 0 3px rgb(0 0 0 / 70%);
   margin-right: 5px;
 }
 
