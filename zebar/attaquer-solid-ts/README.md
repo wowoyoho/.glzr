@@ -30,3 +30,13 @@ VITE_NETWORK_EMPTY_STATE=connected
 ```
 
 Supported values: `connected` (default), `wifi`, `disconnected`.
+
+## Style debug toggle
+
+To verify CSS selectors are being applied, enable:
+
+```env
+VITE_DEBUG_STYLES=1
+```
+
+This adds red outlines/background on left-side buttons and red glow shadows on right-side icons.

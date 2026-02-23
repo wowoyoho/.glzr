@@ -5,6 +5,12 @@
 @import "https://www.nerdfonts.com/assets/css/webfont.css";
 
 :root {
+  --ui-text-shadow:
+    0 1px 1px rgb(0 0 0 / 85%),
+    0 0 3px rgb(0 0 0 / 70%);
+  --ui-icon-shadow:
+    drop-shadow(0 1px 1px rgb(0 0 0 / 85%))
+    drop-shadow(0 0 3px rgb(0 0 0 / 70%));
   --color: #ffffff;
   --green: #ffffff;
   --b-yellow: #ffffff;
@@ -139,9 +145,7 @@ body {
   color: rgb(255 255 255 / 90%);
   font-family: "CaskaydiaMonoNerdFont Locally", ui-monospace, monospace;
   font-size: 13px;
-  text-shadow:
-    0 1px 1px rgb(0 0 0 / 85%),
-    0 0 3px rgb(0 0 0 / 70%);
+  text-shadow: var(--ui-text-shadow);
   overflow: hidden;
   background: transparent;
 }
@@ -158,9 +162,7 @@ body {
 
 i {
   color: #fff;
-  text-shadow:
-    0 1px 1px rgb(0 0 0 / 85%),
-    0 0 3px rgb(0 0 0 / 70%);
+  text-shadow: var(--ui-text-shadow);
   margin-right: 5px;
 }
 
@@ -172,7 +174,7 @@ span {
 button {
   display: flex;
   align-items: center;
-  text-shadow: 0 0 2px black;
+  text-shadow: var(--ui-text-shadow);
   /* margin: 0 1px 0 0; */
   padding: 0 3px 0 3px;
   height: 90%;
@@ -226,10 +228,22 @@ img {
   display: flex;
   align-items: center;
   height: 100%;
+  text-shadow: var(--ui-text-shadow);
 }
 
 .left {
   padding-left: 2px;
+}
+
+.left,
+.left * {
+  font-weight: 400 !important;
+}
+
+.left button,
+.left button .content,
+.left button .content * {
+  font-weight: 400 !important;
 }
 
 .center {
@@ -241,6 +255,31 @@ img {
 
 .right {
   justify-self: end;
+}
+
+.right img {
+  filter: var(--ui-icon-shadow);
+}
+
+.right .i,
+.right .i-cpu,
+.right [class^="i-"],
+.right [class*=" i-"] {
+  text-shadow: var(--ui-text-shadow) !important;
+}
+
+.debug-styles .left button {
+  outline: 1px solid rgb(255 0 0 / 95%) !important;
+  background: rgb(255 0 0 / 18%) !important;
+}
+
+.debug-styles .right img,
+.debug-styles .right .i,
+.debug-styles .right .i-cpu,
+.debug-styles .right [class^="i-"],
+.debug-styles .right [class*=" i-"] {
+  filter: drop-shadow(0 0 6px rgb(255 0 0 / 95%)) !important;
+  text-shadow: 0 0 6px rgb(255 0 0 / 95%) !important;
 }
 
 /* usage */

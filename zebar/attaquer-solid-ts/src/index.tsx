@@ -18,6 +18,8 @@ import BatteryStatus from "./BatteryStatus/BatteryStatus";
 import TimeStatus from "./Time/TimeStatus";
 import Systray from "./Systray/Systray";
 
+const debugStyles = String(import.meta.env.VITE_DEBUG_STYLES ?? "0") === "1";
+
 const providers = zebar.createProviderGroup({
   glazewm: { type: "glazewm" },
   cpu: { type: "cpu", refreshInterval: 5000 },
@@ -38,7 +40,7 @@ function App() {
   providers.onOutput((outputMap) => setOutput(outputMap));
 
   return (
-    <div class="app">
+    <div class={`app ${debugStyles ? "debug-styles" : ""}`}>
       <div class="left">
         <WindowsButton glazewm={output.glazewm} />
         <SearchButton glazewm={output.glazewm} />

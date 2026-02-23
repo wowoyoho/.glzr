@@ -132,6 +132,45 @@ const Application: Component<ApplicationProps> = (props) => {
     GitHubDesktop: (
       <img src="./assets/icons/icons8-github-32.png" class="app-icon" />
     ),
+    Zotero: <img src="./assets/icons/icons8-zotero-32.png" class="app-icon" />,
+    zotero: <img src="./assets/icons/icons8-zotero-32.png" class="app-icon" />,
+    "ZOTERO.EXE": <img src="./assets/icons/icons8-zotero-32.png" class="app-icon" />,
+    "zotero.exe": <img src="./assets/icons/icons8-zotero-32.png" class="app-icon" />,
+    ZoteroPortable: (
+      <img src="./assets/icons/icons8-zotero-32.png" class="app-icon" />
+    ),
+    mstsc: (
+      <img src="./assets/icons/icons8-remote-desktop-32.png" class="app-icon" />
+    ),
+    msrdc: (
+      <img src="./assets/icons/icons8-remote-desktop-32.png" class="app-icon" />
+    ),
+    RemoteDesktopConnection: (
+      <img src="./assets/icons/icons8-remote-desktop-32.png" class="app-icon" />
+    ),
+    "Remote Desktop Connection": (
+      <img src="./assets/icons/icons8-remote-desktop-32.png" class="app-icon" />
+    ),
+    WINWORD: <img src="./assets/icons/icons8-word-32.png" class="app-icon" />,
+    winword: <img src="./assets/icons/icons8-word-32.png" class="app-icon" />,
+    "WINWORD.EXE": <img src="./assets/icons/icons8-word-32.png" class="app-icon" />,
+    EXCEL: <img src="./assets/icons/icons8-excel-32.png" class="app-icon" />,
+    excel: <img src="./assets/icons/icons8-excel-32.png" class="app-icon" />,
+    "EXCEL.EXE": <img src="./assets/icons/icons8-excel-32.png" class="app-icon" />,
+    POWERPNT: (
+      <img src="./assets/icons/icons8-powerpoint-32.png" class="app-icon" />
+    ),
+    powerpnt: (
+      <img src="./assets/icons/icons8-powerpoint-32.png" class="app-icon" />
+    ),
+    "POWERPNT.EXE": (
+      <img src="./assets/icons/icons8-powerpoint-32.png" class="app-icon" />
+    ),
+    OUTLOOK: <img src="./assets/icons/icons8-outlook-32.png" class="app-icon" />,
+    outlook: <img src="./assets/icons/icons8-outlook-32.png" class="app-icon" />,
+    olk: <img src="./assets/icons/icons8-outlook-32.png" class="app-icon" />,
+    "OUTLOOK.EXE": <img src="./assets/icons/icons8-outlook-32.png" class="app-icon" />,
+    "olk.exe": <img src="./assets/icons/icons8-outlook-32.png" class="app-icon" />,
   };
   return (
     <button

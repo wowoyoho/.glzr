@@ -6,6 +6,7 @@
   text-align: center;
   position: relative;
   padding-left: 2px;
+  text-shadow: var(--ui-text-shadow);
 
   .i {
     width: 14px;

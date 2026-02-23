@@ -3,9 +3,7 @@
   color: #fff;
   white-space: nowrap;
   overflow: hidden;
-  text-shadow:
-    0 1px 1px rgb(0 0 0 / 90%),
-    0 0 4px rgb(0 0 0 / 85%);
+  text-shadow: var(--ui-text-shadow);
   &.clicked-animated .content {
     animation: appear 0.2s ease;
   }
@@ -17,7 +15,8 @@
 
   img {
     filter: brightness(0) saturate(100%) invert(79%) sepia(28%) saturate(5094%)
-      hue-rotate(176deg) brightness(102%) contrast(103%);
+      hue-rotate(176deg) brightness(102%) contrast(103%)
+      var(--ui-icon-shadow);
   }
 }
 img {
