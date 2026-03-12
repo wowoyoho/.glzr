@@ -22,7 +22,9 @@ const WindowsButton: Component<WindowsButtonProps> = (props) => {
       class={`logo ${isActive() ? "clicked-animated" : ""}`}
       onClick={handleWindowsClick}
     >
-      <span class="content"></span>
+      <span class="content">
+        <img src="./assets/icons/huawei.svg" width="18" height="18" />
+      </span>
     </button>
   );
 };

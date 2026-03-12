@@ -3,7 +3,7 @@
   width: 24px;
   align-items: center;
   font-size: 16px;
-  padding: 1px 0 0 5px;
+  padding: 0 0 0 5px;
   &.clicked-animated .content {
     animation: appear 0.2s ease;
   }
